@@ -25,12 +25,7 @@ int main() {
 		ballX += SpeedX * GetFrameTime();
 		ballY += SpeedY * GetFrameTime();
 
-		/*if (ballY > GetScreenWidth()) {
-			ballY = GetScreenWidth();
 
-			SpeedY *= 1;
-		}
-		*/
 		if (ballX < 0) {
 			ballX = 0;
 			SpeedX *= -1;
